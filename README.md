@@ -1,57 +1,110 @@
-# 🔬 Neuro-Integrative Analysis: Fusing IKS Phenotyping with Digital Biomarkers for Stage-0 Dementia
+🔬 Neuro-Integrative Analysis: Fusing IKS Phenotyping with Digital Biomarkers for Stage-0 Dementia
 
-> **Status:** Research Abstract Submitted to **AAIC 2026** (Alzheimer's Association International Conference).
-> **Objective:** To redefine early-stage dementia screening by integrating Ayurvedic Prakriti (IKS) with modern AI.
+Status: Research Abstract Accepted at
+Alzheimer’s Association International Conference 2026
 
-## 📚 Research Context (Based on AAIC Submission)
-My preliminary research, titled *"A Two-stage AI/ML Framework Integrating Ayurvedic Phenotyping and Clinical Data for Early Alzheimer's Risk Detection,"* focuses on:
-* **Ayurvedic Integration:** Using **Prakriti** (Vata, Pitta, Kapha) to capture subtle physiological variations.
-* **Two-Stage Pipeline:** Fusing constitutional profiling with clinical and lifestyle data for better risk segmentation.
-* **Technical Feasibility:** Initial validation using synthetic datasets to prove the logic of culturally-grounded diagnostics.
+Objective:
+To develop a scalable, culturally contextualized AI/ML framework for early-stage (Stage-0) dementia risk detection by integrating Ayurvedic phenotyping with modern clinical and digital biomarkers.
 
-##  Technical Implementation & Evolution
-This research builds upon the functional foundation of my initial prototype, which proved the technical viability of the Ayu-Allo fusion.
+🧠 Research Context
 
-Initial Codebase: [!https://github.com/Avgohil/fusion-care-alzheimer-ml]
+This work builds upon the preliminary study:
 
-Core Stack: Python, FastAPI, Scikit-learn, MongoDB.
+“A Two-stage AI/ML Framework Integrating Ayurvedic Phenotyping and Clinical Data for Early Alzheimer's Risk Detection”
 
-Key Achievement: Successfully demonstrated that adding Prakriti-derived phenotypes improves risk segmentation accuracy beyond standard clinical factors.
+Key Components:
+Ayurvedic Integration:
+Utilizes Prakriti (Vata, Pitta, Kapha) to capture individual physiological variability.
+Two-Stage Pipeline:
+Stage 1: Constitutional profiling (Prakriti)
+Stage 2: Clinical + lifestyle data fusion
+Technical Feasibility:
+Initial validation performed using synthetic datasets to demonstrate logical consistency and system behavior.
+⚙️ Technical Foundation
 
-## ⚠️ Identified Research Gaps 
-While the AAIC abstract proves the technical feasibility, it highlights a critical **Scientific Challenge**:
+This research extends an initial working prototype:
 
-1. **Phenotypic Overlap:** A naturally restless **Vata-dominant** person exhibits traits (sleep variability, rapid speech) that overlap with early-stage Alzheimer’s.
-2. **The Noise Problem:** Current AI models might flag healthy Vata individuals as "High Risk" due to this overlap. 
-3. **Requirement:** We need a **Longitudinal Baseline** (14-15 days) to distinguish between a person's natural state (*Prakriti*) and pathological decline (*Vikriti*).
+🔗 Base Implementation:
+https://github.com/Avgohil/fusion-care-alzheimer-ml
 
-## Proposed Methodology (The Research Roadmap)
-To address the phenotypic overlap and improve diagnostic precision, the next phase of this research focuses on a Tri-Layered Validation Framework:
+Tech Stack:
 
-Layer 1: Temporal Baseline Calibration (The 14-Day Rule)
-Instead of a "One-Point Assessment," we propose a passive observation period.
+Python
+FastAPI
+Scikit-learn
+MongoDB
 
-Mechanism: The system records a user's natural behavioral fluctuations (sleep patterns, activity levels) for 14 days to establish a Personalized Prakriti Baseline.
+Key Insight:
+Incorporating Prakriti-derived features improves early risk segmentation compared to conventional clinical-only models.
 
-Goal: To ensure that a "Vata-restless" person is not compared against a "Kapha-stable" average, but against their own unique physiological norm.
+⚠️ Identified Research Gap
+🔴 Phenotypic Overlap Problem
 
-Layer 2: Multimodal Biomarker Fusion (Ayu-Allo Correlation)
-We will cross-verify Ayurvedic functional shifts (Vikriti) with objective Allopathic ground truths:
+Natural Ayurvedic traits may overlap with early pathological symptoms:
 
-Vata Imbalance (Restlessness) <---> HRV (Heart Rate Variability) & Sleep Latency.
+Vata → restlessness, sleep variability
+Early Alzheimer’s → similar behavioral signals
 
-Pitta Imbalance (Inflammation) <---> Body Temperature & Stress Biomarkers.
+👉 This leads to false positives in AI models
 
-Kapha Imbalance (Lethargy) <---> Physical Activity Slopes & Cognitive Speed.
+🔴 The Core Challenge
 
-Layer 3: Privacy-Preserving AI (Federated Learning)
-Recognizing the sensitivity of medical and IKS data, we are moving towards an On-Device AI model.
+Current systems lack the ability to distinguish between:
 
-Approach: Using Federated Learning to train models locally on the user's smartphone, ensuring that raw health data never leaves the device.
+Prakriti (natural baseline)
+Vikriti (pathological deviation)
+🚀 Proposed Methodology
+🧩 Tri-Layered Validation Framework
+🔹 Layer 1: Temporal Baseline Calibration (14-Day Rule)
 
-## 🎓 Recognition & References
-* **Conference Submission:** *A Two-stage AI/ML Framework Integrating Ayurvedic Phenotyping and Clinical Data for Early Alzheimer's Risk Detection*, Submitted to **AAIC 2026**.
-* **Key Literature:**
-  1. Dagum, P. (2018). *Digital biomarkers of cognitive function.*
-  2. Kurunji, V. (2022). *Ayurvedic Prakriti and its correlation with modern genomic and physiological markers.*
-  
+Instead of single-point assessment:
+
+Collect behavioral data over 14–30 days
+Establish a personalized baseline
+
+Goal:
+Compare individuals against their own physiological norm, not population averages.
+
+🔹 Layer 2: Multimodal Biomarker Fusion (Ayu-Allo Correlation)
+
+Bridge Ayurvedic signals with measurable biomedical data:
+| Ayurvedic Signal     | Digital Biomarker                |
+| -------------------- | -------------------------------- |
+| Vata (restlessness)  | HRV, sleep latency               |
+| Pitta (inflammation) | temperature, stress markers      |
+| Kapha (lethargy)     | activity levels, cognitive speed |
+
+🔹 Layer 3: Privacy-Preserving AI
+
+To ensure data security and scalability:
+
+On-device learning
+Federated learning approach
+No raw health data leaves user device
+🧪 System Role
+
+This system is designed as an:
+
+Early Risk Detection & Screening Tool (NOT a diagnostic system)
+
+Identifies potential risk patterns
+Generates personalized alerts
+Recommends clinical consultation when necessary
+🌿 Integrative Perspective
+
+This work bridges:
+
+Ayurveda (IKS): Personalized constitutional understanding
+Modern Medicine: Clinical indicators and biomarkers
+AI/ML: Pattern recognition and prediction
+
+👉 Enabling a low-cost, scalable, and preventive healthcare model
+
+📊 Future Work
+Validation using real clinical datasets
+Integration with wearable devices
+EEG / neuroimaging correlation
+Expansion into personalized digital health platforms
+🎓 References
+Dagum, P. (2018). Digital biomarkers of cognitive function
+Kurunji, V. (2022). Ayurvedic Prakriti and its correlation with modern physiology
