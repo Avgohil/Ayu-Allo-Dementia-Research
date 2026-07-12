@@ -208,7 +208,7 @@ flowchart LR
 
 ## Conference Materials
 
-The AAIC 2026 poster is the primary source document underlying this repository's scientific content. Rather than reproducing the poster itself, the material above — phenotypic overlap, molecular mechanism, two-stage framework, tri-layer validation, explainable AI — has been redrawn as original diagrams specific to this repository. The full poster PDF is included in this repository for reference and citation.
+The AAIC 2026 poster is the primary source document underlying this repository's scientific content. Rather than reproducing the poster itself, the material above — phenotypic overlap, molecular mechanism, two-stage framework, tri-layer validation, explainable AI — has been redrawn as original diagrams specific to this repository. The full poster PDF is available [here](assets/AAICPoster.pdf) for reference and citation.
 
 ## Implementation Repository
 
