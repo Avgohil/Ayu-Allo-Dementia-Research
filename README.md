@@ -216,16 +216,6 @@ This repository documents the scientific foundation — literature, mechanism, p
 
 **[Fusion Care](https://github.com/Avgohil/fusion-care-alzheimer-ml)** — Python, FastAPI, scikit-learn. Implements the two-stage pipeline described above: Prakriti classification (Stage 1) and clinical risk prediction (Stage 2).
 
-## Research Ecosystem
-
-```mermaid
-flowchart TD
-    A[Research background] --> B[Literature review]
-    B --> C[Biological mechanisms]
-    C --> D[Fusion Care implementation]
-    D --> E([Future clinical validation])
-```
-
 ## Repository Relationship
 
 ```mermaid
